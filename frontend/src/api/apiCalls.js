@@ -5,7 +5,7 @@ import Login from "../components/Authorisation/Login";
 
 export const getProducts = async () => {
     try{
-        const response = await fetch ("http://localhost:8080/api/products/getAll",
+        const response = await fetch ("http://localhost:8082/api/products/getAll",
         {
             method: "GET",
             headers: {"Content-Type": "application/json"},
@@ -20,7 +20,7 @@ export const getProducts = async () => {
 
 export const getCategories = async () => {
     try{
-        const response = await fetch ("http://localhost:8080/api/categories/getAll",
+        const response = await fetch ("http://localhost:8082/api/categories/getAll",
         {
             method: "GET",
             headers: {"Content-Type": "application/json"},
@@ -35,7 +35,7 @@ export const getCategories = async () => {
 
 export const deleteProduct = async (id) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/products/delete/"+id,
+      const response = await fetch ("http://localhost:8082/api/products/delete/"+id,
       {
           method: "DELETE",
           headers: {"Content-Type": "application/json"},
@@ -49,7 +49,7 @@ export const deleteProduct = async (id) => {
 
 export const addProduct = async (product) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/products/add",
+      const response = await fetch ("http://localhost:8082/api/products/add",
       {
           method: "POST",
           headers: {"Content-Type": "application/json"},
@@ -65,7 +65,7 @@ export const addProduct = async (product) => {
 
 export const editProduct = async (product) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/products/edit/"+product.product_id,
+      const response = await fetch ("http://localhost:8082/api/products/edit/"+product.product_id,
       {
           method: "PUT",
           headers: {"Content-Type": "application/json"},
@@ -84,7 +84,7 @@ export const authorise = async (user) => {
 
   
   try{
-      const response = await fetch ("http://localhost:8080/api/authentication/authorise",
+      const response = await fetch ("http://localhost:8082/api/authentication/authorise",
       {
           method: "POST",
           headers: {"Content-Type": "application/json"},
@@ -107,7 +107,7 @@ export const authorise = async (user) => {
 
 export const register = async (user) => {  
   try{
-      const response = await fetch ("http://localhost:8080/api/authentication/register",
+      const response = await fetch ("http://localhost:8082/api/authentication/register",
       {
           method: "POST",
           headers: {"Content-Type": "application/json"},
@@ -127,7 +127,7 @@ export const register = async (user) => {
 
 export const getProcessors = async () => {
   try{
-      const response = await fetch ("http://localhost:8080/api/processors/getAll",
+      const response = await fetch ("http://localhost:8082/api/processors/getAll",
       {
           method: "GET",
           headers: {"Content-Type": "application/json"},
@@ -142,7 +142,7 @@ export const getProcessors = async () => {
 
 export const addProcessor = async (processor) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/processors/add",
+      const response = await fetch ("http://localhost:8082/api/processors/add",
       {
           method: "POST",
           headers: {"Content-Type": "application/json"},
@@ -158,7 +158,7 @@ export const addProcessor = async (processor) => {
 
 export const editProcessor = async (processor) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/processors/edit",
+      const response = await fetch ("http://localhost:8082/api/processors/edit",
       {
           method: "PUT",
           headers: {"Content-Type": "application/json"},
@@ -174,7 +174,7 @@ export const editProcessor = async (processor) => {
 
 export const deleteProcessor = async (id) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/processors/delete/"+id,
+      const response = await fetch ("http://localhost:8082/api/processors/delete/"+id,
       {
           method: "DELETE",
           headers: {"Content-Type": "application/json"},
@@ -188,7 +188,7 @@ export const deleteProcessor = async (id) => {
 
 export const getVideocards = async () => {
   try{
-      const response = await fetch ("http://localhost:8080/api/videocards/getAll",
+      const response = await fetch ("http://localhost:8082/api/videocards/getAll",
       {
           method: "GET",
           headers: {"Content-Type": "application/json"},
@@ -203,7 +203,7 @@ export const getVideocards = async () => {
 
 export const addVideocard = async (videocard) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/videocards/add",
+      const response = await fetch ("http://localhost:8082/api/videocards/add",
       {
           method: "POST",
           headers: {"Content-Type": "application/json"},
@@ -219,7 +219,7 @@ export const addVideocard = async (videocard) => {
 
 export const editVideocard = async (videocard) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/videocards/edit",
+      const response = await fetch ("http://localhost:8082/api/videocards/edit",
       {
           method: "PUT",
           headers: {"Content-Type": "application/json"},
@@ -235,7 +235,7 @@ export const editVideocard = async (videocard) => {
 
 export const deleteVideocard = async (id) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/videocards/delete/"+id,
+      const response = await fetch ("http://localhost:8082/api/videocards/delete/"+id,
       {
           method: "DELETE",
           headers: {"Content-Type": "application/json"},
@@ -249,7 +249,7 @@ export const deleteVideocard = async (id) => {
 
 export const getRam = async () => {
   try{
-      const response = await fetch ("http://localhost:8080/api/ram/getAll",
+      const response = await fetch ("http://localhost:8082/api/ram/getAll",
       {
           method: "GET",
           headers: {"Content-Type": "application/json"},
@@ -264,7 +264,7 @@ export const getRam = async () => {
 
 export const addRam = async (ram) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/ram/add",
+      const response = await fetch ("http://localhost:8082/api/ram/add",
       {
           method: "POST",
           headers: {"Content-Type": "application/json"},
@@ -280,7 +280,7 @@ export const addRam = async (ram) => {
 
 export const editRam = async (ram) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/ram/edit",
+      const response = await fetch ("http://localhost:8082/api/ram/edit",
       {
           method: "PUT",
           headers: {"Content-Type": "application/json"},
@@ -296,7 +296,7 @@ export const editRam = async (ram) => {
 
 export const deleteRam = async (id) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/ram/delete/"+id,
+      const response = await fetch ("http://localhost:8082/api/ram/delete/"+id,
       {
           method: "DELETE",
           headers: {"Content-Type": "application/json"},
@@ -310,7 +310,7 @@ export const deleteRam = async (id) => {
 
 export const getCartItem = async () => {
   try{
-      const response = await fetch ("http://localhost:8080/api/cartItems/getCart",
+      const response = await fetch ("http://localhost:8082/api/cartItems/getCart",
       {
           method: "GET",
           headers: {"Content-Type": "application/json"},
@@ -325,7 +325,7 @@ export const getCartItem = async () => {
 
 export const addCartItem = async (cartItem) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/cartItems/add",
+      const response = await fetch ("http://localhost:8082/api/cartItems/add",
       {
           method: "POST",
           headers: {"Content-Type": "application/json"},
@@ -341,7 +341,7 @@ export const addCartItem = async (cartItem) => {
 
 export const editCartItem = async (cartItem) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/cartItems/edit",
+      const response = await fetch ("http://localhost:8082/api/cartItems/edit",
       {
           method: "PUT",
           headers: {"Content-Type": "application/json"},
@@ -357,7 +357,7 @@ export const editCartItem = async (cartItem) => {
 
 export const deleteCartItem = async (id) => {
   try{
-      const response = await fetch ("http://localhost:8080/api/cartItems/delete/"+id,
+      const response = await fetch ("http://localhost:8082/api/cartItems/delete/"+id,
       {
           method: "DELETE",
           headers: {"Content-Type": "application/json"},
