@@ -296,7 +296,7 @@ export const editRam = async (ram) => {
 
 export const deleteRam = async (id) => {
   try{
-      const response = await fetch ("http://localhost:8082/api/ram/delete/"+id,
+      await fetch ("http://localhost:8082/api/ram/delete/"+id,
       {
           method: "DELETE",
           headers: {"Content-Type": "application/json"},

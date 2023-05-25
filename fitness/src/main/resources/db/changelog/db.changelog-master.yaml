@@ -39,3 +39,13 @@ databaseChangeLog:
             splitStatements: true
             path: db/changelog/sql/04.add-quantity-column.sql
             stripComments: true
+  - changeSet:
+      id: 05-migration
+      author: Stepuro Vadim
+      changes:
+        - sqlFile:
+            dbms: 'postgresql'
+            endDelimiter: \nGO
+            splitStatements: true
+            path: db/changelog/sql/05.add-roles.sql
+            stripComments: true
