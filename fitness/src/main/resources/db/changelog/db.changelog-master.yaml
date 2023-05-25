@@ -1,0 +1,41 @@
+databaseChangeLog:
+  - changeSet:
+      id:  01-migration
+      author:  Stepuro Vadim
+      changes:
+        - sqlFile:
+            dbms: 'postgresql'
+            endDelimiter: \nGO
+            splitStatements: true
+            path: db/changelog/sql/01.create-basic-database.sql
+            stripComments:  true
+  - changeSet:
+      id: 02-migration
+      author: Stepuro Vadim
+      changes:
+        - sqlFile:
+            dbms: 'postgresql'
+            endDelimiter: \nGO
+            splitStatements: true
+            path: db/changelog/sql/02.add-frequency-to-ram.sql
+            stripComments: true
+  - changeSet:
+      id: 03-migration
+      author: Stepuro Vadim
+      changes:
+        - sqlFile:
+            dbms: 'postgresql'
+            endDelimiter: \nGO
+            splitStatements: true
+            path: db/changelog/sql/03.change-default-value-of-frequency.sql
+            stripComments: true
+  - changeSet:
+      id: 04-migration
+      author: Stepuro Vadim
+      changes:
+        - sqlFile:
+            dbms: 'postgresql'
+            endDelimiter: \nGO
+            splitStatements: true
+            path: db/changelog/sql/04.add-quantity-column.sql
+            stripComments: true

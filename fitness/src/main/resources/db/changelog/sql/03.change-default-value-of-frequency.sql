@@ -1,0 +1,1 @@
+ALTER TABLE public.ram ALTER COLUMN frequency SET DEFAULT 0;

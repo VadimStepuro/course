@@ -1,0 +1,1 @@
+ALTER TABLE public.ram ADD frequency int4 NULL;

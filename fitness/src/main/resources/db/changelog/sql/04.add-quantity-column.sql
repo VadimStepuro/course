@@ -1,0 +1,1 @@
+ALTER TABLE public.cart_items ADD quantity int4 NULL;
