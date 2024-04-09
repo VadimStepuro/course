@@ -4,14 +4,184 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a12a10-182c-498f-a5c2-47f9f88e4a2c" name="Changes" comment="Changed port">
-      <change afterPath="$PROJECT_DIR$/fitness/src/main/resources/db/changelog/sql/05.add-roles.sql" afterDir="false" />
+    <list default="true" id="f7a12a10-182c-498f-a5c2-47f9f88e4a2c" name="Changes" comment="Refactored whole project">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pc-accessories/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_14_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_opencsv_opencsv_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_5_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_impl_0_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_jackson_0_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_inject_jakarta_inject_api_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_23_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_angus_angus_activation_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_6_0_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_1_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_5_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_liquibase_liquibase_core_4_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_6_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_6_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_6_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_6_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fitness/src/main/resources/db/changelog/db.changelog-master.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/fitness/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/api/apiCalls.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/apiCalls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Authorisation/IsAuthorised.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Authorisation/IsAuthorised.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/FitnessApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/PcAccessoriesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/api/CartItemDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/api/CartItemDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/api/CartItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/api/CartItemMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/api/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/api/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/api/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/api/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/configuration/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/configuration/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/controllers/CartItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/controllers/CartItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/controllers/ProcessorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/controllers/ProcessorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/controllers/RamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/controllers/RamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/controllers/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/controllers/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/controllers/VideocardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/controllers/VideocardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/models/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/models/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/models/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/models/Processor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/models/Ram.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/models/Ram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/models/Videocard.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/models/Videocard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/repositories/CartItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/repositories/CartItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/repositories/ProcessorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/repositories/ProcessorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/repositories/RamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/repositories/RamRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/repositories/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/repositories/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/repositories/VideocardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/repositories/VideocardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/security/configuration/CorsFilterConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/security/configuration/CorsFilterConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/security/configuration/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/security/configuration/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/security/configuration/SpringSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/security/configuration/SpringSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/security/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/security/controllers/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/security/models/AuthentcationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/security/models/AuthentcationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/security/models/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/security/models/AuthenticationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/security/models/IsAuthorised.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/security/models/IsAuthorised.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/security/models/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/security/models/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/security/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/security/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/security/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/security/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/service/CartItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/service/CartItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/service/ProcessorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/service/ProcessorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/service/RamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/service/RamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/java/com/stepuro/fitness/service/VideocardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/java/com/stepuro/pc/accessories/service/VideocardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/resources/db/changelog/db.changelog-master.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/resources/db/changelog/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/resources/db/changelog/liquibase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/resources/db/changelog/sql/01.create-basic-database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/resources/db/changelog/sql/01.create-basic-database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/resources/db/changelog/sql/02.add-frequency-to-ram.sql" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/resources/db/changelog/sql/02.add-frequency-to-ram.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/resources/db/changelog/sql/03.change-default-value-of-frequency.sql" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/resources/db/changelog/sql/03.change-default-value-of-frequency.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/resources/db/changelog/sql/04.add-quantity-column.sql" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/resources/db/changelog/sql/04.add-quantity-column.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/resources/db/changelog/sql/05.add-roles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/resources/db/changelog/sql/05.add-roles.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/main/resources/static/categories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pc-accessories/src/main/resources/static/categories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness/src/test/java/com/stepuro/fitness/FitnessApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,48 +191,151 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "contexts": [
+    {
+      "name": "docker-desktop"
+    }
+  ],
+  "isMigrated": true
+}]]></component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="docker-desktop" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2Q6A4hFOV4nJSqqFrQjJwCG74JK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fgg22/Desktop/course&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.fitness.java: Compose Deployment.executor": "Run",
+    "Docker.fitness/Dockerfile.executor": "Run",
+    "Docker.fitness: Compose Deployment.executor": "Run",
+    "Docker.pc-accessories.adminer: Compose Deployment.executor": "Run",
+    "Docker.pc-accessories: Compose Deployment.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/vadim.stepuro/IdeaProjects/course/pc/accessories",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/vadim.stepuro/IdeaProjects/course/pc-accessories/src/main/java/org/stepuro/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="FitnessApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stepuro.fitness.FitnessApplication" />
-      <module name="fitness" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stepuro.fitness.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vadim.stepuro\IdeaProjects\course\pc-accessories" />
+      <recent name="C:\Users\vadim.stepuro\IdeaProjects\course\pc.accessories" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.pc-accessories.adminer: Compose Deployment">
+    <configuration name="FitnessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="pc.accessories" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stepuro.fitness.FitnessApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PcAccessoriesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="pc.accessories" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stepuro.pc.accessories.PcAccessoriesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fitness: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="fitness/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="fitness/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="fitness/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="fitness.java: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="java" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="fitness/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="pc-accessories: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="pc-accessories/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="pc-accessories.adminer: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="adminer" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="pc-accessories/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FitnessApplication" />
+        <item itemvalue="Docker.pc-accessories.adminer: Compose Deployment" />
+        <item itemvalue="Docker.pc-accessories: Compose Deployment" />
+        <item itemvalue="Docker.fitness.java: Compose Deployment" />
+        <item itemvalue="Docker.fitness: Compose Deployment" />
+        <item itemvalue="Docker.fitness/Dockerfile" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,6 +345,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684663467687</updated>
+      <workItem from="1712666780422" duration="7798000" />
     </task>
     <task id="LOCAL-00001" summary="Changed port">
       <created>1685036177339</created>
@@ -82,6 +356,9 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -97,5 +374,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed port" />
     <option name="LAST_COMMIT_MESSAGE" value="Changed port" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pc-accessories/src/main/java/org/stepuro/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pc-accessories/src/main/java/org/stepuro/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
